@@ -20,11 +20,11 @@ public class Rettangolo {
 	}
 		
 	 public void disegna () {
-		 for (int i = 1; i <= this.altezza; i++) {
-			 for (int y = 1; y <= this.base; y++) {
-				 if(i == 1 || i == this.altezza) {
+		 for (int i = 0; i <= this.altezza; i++) {
+			 for (int y = 0; y <= this.base; y++) {
+				 if(i == 0 || i == this.altezza) {
 					 System.out.print("$ ");
-				 } else if(y == 1 || y == this.base){
+				 } else if(y == 0 || y == this.base){
 					 System.out.print("$ ");
 				 } else {
 					 System.out.print("  ");
