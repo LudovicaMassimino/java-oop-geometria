@@ -20,9 +20,9 @@ public class Rettangolo {
 	}
 		
 	 public void disegna () {
-		 for (int i = 0; i < altezza; i++) {
-			 for (int x = 0; x < base; x++) {
-				 if(i == 0 || i == altezza -1 || x == 0 || x == base - 1) {
+		 for (int i = 0; i < this.altezza; i++) {
+			 for (int x = 0; x < this.base; x++) {
+				 if(i == 0 || i == this.altezza -1 || x == 0 || x == this.base - 1) {
 					 System.out.print("$ ");
 				 } else {
 					 System.out.print("  ");
